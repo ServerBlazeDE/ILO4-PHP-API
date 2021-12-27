@@ -22,18 +22,5 @@
     "require-dev": {
         "ext-curl": "*",
         "ext-json": "*"
-    },
-    "minimum-stability": "dev",
-    "suggest": {
-        "ext-filter": "Required to use the boolean validator.",
-        "ext-pcre": "Required to use most of the library."
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.1-dev"
-        }
     }
 }
