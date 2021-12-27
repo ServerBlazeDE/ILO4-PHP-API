@@ -1,7 +1,15 @@
 {
     "name": "serverblaze/iloclient",
     "description": "ILO-4 PHP-Client",
+    "keywords": ["ilo", "ilo4", "hp-api"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Michell Herwig",
+            "email": "j.herwig@integromedia.io",
+            "homepage": "https://serverblaze.de"
+        }
+    ],
     "version": "0.0.1",
     "autoload": {
         "classmap": [
@@ -9,9 +17,23 @@
         ]
     },
     "require": {
-        "php": "^7.2.5",
+        "php": "^5.5.9 || ^7.0"
+    },
+    "require-dev": {
         "ext-curl": "*",
         "ext-json": "*"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "suggest": {
+        "ext-filter": "Required to use the boolean validator.",
+        "ext-pcre": "Required to use most of the library."
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.1-dev"
+        }
+    }
 }
