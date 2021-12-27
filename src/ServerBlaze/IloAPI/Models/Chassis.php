@@ -2,9 +2,9 @@
 
 namespace src\ServerBlaze\IloAPI\Models;
 
-use src\SyntaxPhoenix\IloAPI\Models\Status;
-use src\SyntaxPhoenix\IloAPI\Models\DataModel;
-use src\SyntaxPhoenix\IloAPI\Requests\IloRequest;
+use src\ServerBlaze\IloAPI\Requests\IloRequest;
+use src\ServerBlaze\IloAPI\Models\Status;
+use src\ServerBlaze\IloAPI\Models\DataModel;
 
 class Chassis extends DataModel
 {

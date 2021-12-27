@@ -1,5 +1,6 @@
 <?php
 
+
 namespace src\ServerBlaze\IloAPI\Models\Chassis\Power;
 
 class PowerMetrics 
