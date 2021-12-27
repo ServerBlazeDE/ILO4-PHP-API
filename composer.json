@@ -1,0 +1,17 @@
+{
+    "name": "serverblaze/iloclient",
+    "description": "ILO-4 PHP-Client",
+    "license": "MIT",
+    "version": "0.0.4",
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    },
+    "require": {
+        "php": "^7.2.5",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "minimum-stability": "dev"
+}
